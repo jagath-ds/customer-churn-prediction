@@ -11,7 +11,7 @@ Customer churn costs banks significant revenue. By identifying potential churner
 ---
 
 ## 🗃️ Dataset
-
+- Churn_Modelling.csv is the dataset used for creating the ML models and predictions.
 - ✅ 10,000+ bank customers
 - 🎯 Target column: `Exited` (1 = churned, 0 = retained)
 - 📊 Features include: Age, Geography, Balance, NumOfProducts, IsActiveMember, etc.
