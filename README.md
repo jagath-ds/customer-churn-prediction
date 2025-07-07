@@ -47,3 +47,21 @@ The notebook includes clear visualizations for understanding key churn drivers:
 - Stacked bar plots comparing churned vs retained customers
 
 These visuals help bridge technical findings with business actions.
+---
+## 🔍 Model Explainability with SHAP
+
+To ensure transparency and build stakeholder trust, SHAP (SHapley Additive exPlanations) was used to interpret the model.
+
+### 🧠 What SHAP Revealed:
+- `Age`, `IsActiveMember`, and `NumOfProducts` were top drivers of churn
+- SHAP summary plots provided global feature importance rankings
+- SHAP force plots gave clear, local explanations for individual customer predictions
+
+### 📈 Example Insight:
+> Customers who are **older**, **inactive**, and have **fewer products** — especially from **Germany** — are at higher risk of churning, while **younger**, **active** customers with longer **tenure** are stable.
+
+This helps turn predictions into business action — enabling **targeted retention** campaigns.
+
+> ✅ SHAP plots are included in the notebook 
+
+---
