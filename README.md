@@ -53,7 +53,7 @@ These visuals help bridge technical findings with business actions.
 To ensure transparency and build stakeholder trust, SHAP (SHapley Additive exPlanations) was used to interpret the model.
 
 ### 🧠 What SHAP Revealed:
-- `Age`, `IsActiveMember`, and `NumOfProducts` were top drivers of churn
+- `Age`, `IsActiveMember`,`Balance` and `NumOfProducts` were top drivers of churn
 - SHAP summary plots provided global feature importance rankings
 - SHAP force plots gave clear, local explanations for individual customer predictions
 
